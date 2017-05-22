@@ -60,11 +60,11 @@ $i18n_key_words = array(
 
 // Footer - strings on the bottom of most pages.
 // TODO: Translate the following:
-// 'footer.contribute_msg' => 'You can contribute to Time Tracker in different ways.',
+'footer.contribute_msg' => 'Możesz wspomóc projekt Time Tracker na wiele sposobów.',
 'footer.credits' => 'Twórcy',
 'footer.license' => 'Licencja',
 // TODO: Translate the following:
-// 'footer.improve' => 'Contribute', // Translators: this could mean "Improve", if it makes better sense in your language.
+'footer.improve' => 'Współpraca', // Translators: this could mean "Improve", if it makes better sense in your language.
                                      // This is a link to a webpage that describes how to contribute to the project.
 
 // Error messages.
@@ -90,7 +90,7 @@ $i18n_key_words = array(
 'error.no_teams' => 'Twoja baza danych jest pusta. Zaloguj się jako administrator i stwórz nowy zespół.',
 'error.upload' => 'Błąd podczas wysyłania pliku.',
 // TODO: Translate the following:
-// 'error.range_locked' => 'Date range is locked.',
+'error.range_locked' => 'Zakres dat jest zablokowany',
 'error.mail_send' => 'Błąd podczas wysyłania wiadomości e-mail.',
 'error.no_email' => 'Żaden adres e-mail nie jest skojarzony z tym loginem.',
 'error.uncompleted_exists' => 'Istnieje niedokończony wpis. Zamknij go lub usuń.',
@@ -157,7 +157,7 @@ $i18n_key_words = array(
 'label.day_total' => 'Dziś',
 'label.week_total' => 'W tym tygodniu',
 // TODO: translate the following.
-// 'label.month_total' => 'Month total',
+'label.month_total' => 'W bieżącym miesiącu',
 'label.today' => 'Dziś',
 'label.total_hours' => 'Całkowita liczba godzin',
 'label.total_cost' => 'Koszt całkowity',
@@ -189,11 +189,11 @@ $i18n_key_words = array(
 'label.role_comanager' => '(Co-manager)',
 'label.role_admin' => '(Administrator)',
 // Translate the following string.
-// 'label.page' => 'Page',
+'label.page' => 'Strona',
 // Labels for plugins (extensions to Time Tracker that provide additional features).
 'label.custom_fields' => 'Niestandardowe pola',
 // Translate the following.
-// 'label.monthly_quotas' => 'Monthly quotas',
+'label.monthly_quotas' => 'Ilość roboczogodzin w miesiącu',
 'label.type' => 'Rodzaj',
 'label.type_dropdown' => 'lista rozwijana',
 'label.type_text' => 'tekst',
@@ -246,7 +246,7 @@ $i18n_key_words = array(
 'title.add_notification' => 'Dodawanie powiadomienia',
 'title.edit_notification' => 'Edytowanie powiadomienia',
 'title.delete_notification' => 'Usuwanie powiadomienia',
-// 'title.monthly_quotas' => 'Monthly Quotas',
+'title.monthly_quotas' => 'Ilość roboczogodzin w miesiącu',
 'title.export' => 'Eksport danych zespołu',
 'title.import' => 'Import danych zespołu',
 'title.options' => 'Opcje',
@@ -262,7 +262,7 @@ $i18n_key_words = array(
 // NOTE TO TRANSLATORS: Locking is a feature to lock records from modifications (ex: weekly on Mondays we lock all previous weeks).
 // It is also a name for the Locking plugin on the Team profile page.
 // TODO: Translate the following:
-// 'title.locking' => 'Locking',
+'title.locking' => 'Blokada',
 
 // Section for common strings inside combo boxes on forms. Strings shared between forms shall be placed here.
 // Strings that are used in a single form must go to the specific form section.
@@ -308,8 +308,8 @@ $i18n_key_words = array(
 'form.time.billable' => 'Płatne dla klienta',
 'form.time.uncompleted' => 'Nieukończone',
 // TODO: translate the following.
-// 'form.time.remaining_quota' => 'Remaining quota',
-// 'form.time.over_quota' => 'Over quota',
+'form.time.remaining_quota' => 'Pozostająca ilość godzin',
+'form.time.over_quota' => 'Ponad ilość godzin',
 
 // Editing Time Record form. See example at https://timetracker.anuko.com/time_edit.php (get there by editing an uncompleted time record).
 'form.time_edit.uncompleted' => 'Ten wpis ma określony jedynie czas rozpoczęcia. To nie jest błąd.',
@@ -361,7 +361,7 @@ $i18n_key_words = array(
 'form.users.active_users' => 'Aktywni użytkownicy',
 'form.users.inactive_users' => 'Nieaktywni użytkownicy',
  // TODO: translate the following.
- // 'form.users.uncompleted_entry' => 'User has an uncompleted time entry',
+'form.users.uncompleted_entry' => 'Użytkownik ma niedokończony wpis czasu',
 'form.users.role' => 'Rola',
 'form.users.manager' => 'Manager',
 'form.users.comanager' => 'Co-manager',
@@ -415,9 +415,8 @@ $i18n_key_words = array(
 
 // Quotas configuration form.
 // TODO: translate the following.
-// 'form.quota.year' => 'Year',
-// 'form.quota.month' => 'Month',
-// 'form.quota.quota' => 'Quota',
-// 'form.quota.workday_hours' => 'Hours in a work day',
-// 'form.quota.hint' => 'If values are empty, quotas are calculated automatically based on workday hours and holidays.',
+'form.quota.year' => 'Rok',
+'form.quota.month' => 'Miesiąc',
+'form.quota.workday_hours' => 'Ilość godzin na dzień roboczy',
+'form.quota.hint' => 'Jeżeli wartosci są puste, ilość godzin pracujących zostanie wyliczona automatycznie na podstawie dni roboczych i świąt z kalendarza.',
 );
